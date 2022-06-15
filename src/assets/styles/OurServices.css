@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins&display=swap");
+
+.upper-service-heading {
+  margin-bottom: 30px;
+  font-family: "Josefin Sans", sans-serif;
+  margin-top: 50px;
+}
+
+.align_center {
+  text-align: center;
+}
+.service-heading {
+  font-size: 1.6em;
+  text-decoration: none;
+  color: black;
+  display: block;
+  font-family: "Josefin Sans", sans-serif;
+}
+.service-box {
+  display: block;
+  box-sizing: border-box;
+  background-color: white;
+  margin-bottom: 10px;
+  padding: 15px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 320px;
+}
+.service-box img {
+  margin-bottom: 8px;
+  height: 80px;
+  object-fit: contain;
+}
+.description-para {
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.middle-service-box {
+  box-shadow: 1px 1px 5px rgb(233, 227, 227);
+}
+
+.service-box:hover {
+  box-shadow: 1px 1px 5px rgb(233, 227, 227);
+}
+
+@media screen and (max-width: 500px) {
+  .service-box {
+    height: 340px;
+  }
+}

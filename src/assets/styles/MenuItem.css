@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+.item-name {
+  font-family: "Open Sans", sans-serif;
+}
+
+.item-description {
+  font-weight: lighter;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+.menu-item-container {
+  margin-top: 20px;
+  padding: 5px;
+  height: 160px;
+  background-color: white;
+}
+
+.left-div-menu-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left-div-menu-item .item-image {
+  border-radius: 5px;
+  object-fit: contain;
+}
+
+.middle-div-menu-item span {
+  display: block;
+}
+.right-div-menu-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right-div-menu-item .add-item-btn {
+  padding: 5px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: lightgreen;
+}
+.item-name {
+  margin-bottom: 3px;
+}
+.item-rating {
+  margin-bottom: 3px;
+  margin-top: 0;
+}
+
+.item-rating .fa-star {
+  color: orange;
+}
+
+.menu-row {
+  padding: 5px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .menu-item-container {
+    width: 95%;
+    height: auto;
+    padding: 20px;
+  }
+  .middle-div-menu-item {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .left-div-menu-item {
+    margin-top: 5px;
+  }
+  .right-div-menu-item {
+    margin-bottom: 5px;
+  }
+  .left-div-menu-item .item-image {
+    width: 130px;
+    margin-bottom: 10px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  .menu-item-container {
+    height: auto;
+  }
+  .menu-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .menu-item-container {
+    height: auto;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .menu-item-container {
+    height: 160px;
+  }
+  .menu-item-container .item-image {
+    height: 120px;
+  }
+}

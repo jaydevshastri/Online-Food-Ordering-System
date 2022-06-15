@@ -1,0 +1,82 @@
+.order-request-row {
+  background-color: white;
+  border-bottom: 1px solid lightgrey;
+  margin-bottom: 5px;
+}
+.order-request-row span {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+  margin-top: 5px;
+}
+.order-list-heading {
+  font-weight: bolder;
+}
+.order-items-link a {
+  text-decoration: none;
+}
+.order-request-heading {
+  width: 100%;
+  font-family: "Roboto Condensed", sans-serif;
+  padding: 10px 0;
+  margin-bottom: 20px;
+  border-bottom: 1px solid black;
+}
+
+.select-status select {
+  width: 90%;
+  padding: 2px;
+  border: 1px solid lightgray;
+  outline: none;
+}
+
+@media screen and (max-width: 500px) {
+  .order-request-row span {
+    display: inline;
+    text-align: justify;
+    font-size: 14px;
+  }
+
+  .details-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .order-request-row {
+    width: 99%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid lightgray;
+  }
+  .margin-bottom {
+    margin-bottom: 10px;
+  }
+}
+
+.payment-method-admin {
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.order-status {
+  color: white;
+  border-radius: 50px;
+}
+
+.pending-receive {
+  background-color: red;
+}
+
+.order-received {
+  background-color: blue;
+}
+
+.payment-remaining {
+  background-color: yellow;
+  color: black;
+}
+
+.order-completed {
+  background-color: green;
+}

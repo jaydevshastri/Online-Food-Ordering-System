@@ -1,0 +1,22 @@
+.contact-us-info-div {
+  border: 1px solid lightgrey;
+  background-color: white;
+  width: 60%;
+  margin: 10px auto;
+  padding: 10px;
+}
+.contact-us-info-div span,
+.contact-us-info-div p {
+  display: block;
+  font-family: "Roboto ", sans-serif;
+  margin-top: 5px;
+}
+
+.contact-us-info-div p {
+  font-family: "Roboto Condensed", sans-serif;
+}
+@media screen and (max-width: 500px) {
+  .contact-us-info-div {
+    width: 90%;
+  }
+}

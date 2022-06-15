@@ -1,0 +1,80 @@
+.itemRow {
+  border-bottom: 1px solid lightgrey;
+  padding: 10px;
+}
+.itemRow span {
+  font-family: "Open Sans", sans-serif;
+}
+.price-remove-div span {
+  display: block;
+}
+
+.align-centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart-item-image {
+  width: 140px;
+  object-fit: contain;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.itemQuantity {
+  border: 1px solid lightgrey;
+  padding: 5px 15px;
+}
+
+.button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: 10px;
+  font-size: 1em;
+}
+.itemInfo {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.itemInfo span {
+  display: block;
+}
+.itemName {
+  font-size: 1.1em;
+}
+.itemDescription {
+  font-size: 13px;
+}
+
+.btn-remove {
+  padding: 5px 10px;
+  outline: none;
+  border: none;
+  transition: all ease-in 100ms;
+  background-color: transparent;
+}
+.btn-remove:hover {
+  background-color: #ece2e2;
+}
+@media screen and (max-width: 500px) {
+  .itemInfo {
+    text-align: center;
+  }
+  .itemDescription {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .itemName {
+    margin-top: 10px;
+  }
+  .btn-remove {
+    border: 1px solid red;
+    padding: 2px 20px;
+    background-color: red;
+    color: white;
+    margin-top: 10px;
+  }
+}

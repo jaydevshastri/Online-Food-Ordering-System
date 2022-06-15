@@ -1,0 +1,178 @@
+.month-specials {
+  padding: 3.125rem 0;
+}
+.month-specials .specials-content {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+@media print, screen and (min-width: 40em) {
+  .month-specials .specials-content {
+    padding-bottom: 3.125rem;
+  }
+}
+.month-specials .specials-content .special {
+  background: white;
+  display: -ms-flexbox;
+  display: flex;
+  transition: 0.3s ease-in-out;
+}
+@media print, screen and (min-width: 40em) {
+  .month-specials .specials-content .special {
+    width: 50%;
+  }
+}
+@media print, screen and (min-width: 64em) {
+  .month-specials .specials-content .special {
+    width: 33.33333%;
+  }
+}
+.month-specials .specials-content .special:hover {
+  background: #f6c710;
+  opacity: 1;
+}
+.month-specials .specials-content .special:hover > .special-img img {
+  background: #f6c710;
+  opacity: 0.7;
+}
+.month-specials .specials-content .special .special-img {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.month-specials .specials-content .special .special-img img {
+  width: 100%;
+  height: auto;
+  transition: 0.3s ease-in-out;
+}
+.month-specials .specials-content .special .special-items {
+  width: 50%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+  text-align: center;
+  transition: 0.3s ease-in-out;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.month-specials .specials-content .special .special-items h2 {
+  font-size: 1.2rem;
+  position: relative;
+  margin-bottom: 0.9375rem;
+  font-weight: 600;
+  font-family: "Josefin Sans", sans-serif;
+}
+.month-specials .specials-content .special .special-items h2:after {
+  content: "";
+  position: absolute;
+  display: block;
+  bottom: -0.5rem;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 45%;
+  height: 1px;
+  background-color: #3c3c3c;
+}
+.month-specials .specials-content .special .special-items p {
+  font-size: 0.75rem;
+  margin-bottom: 0.3125rem;
+  font-family: "Josefin Sans", sans-serif;
+}
+@media print, screen and (min-width: 40em) {
+  .month-specials .specials-content .special .special-items p {
+    font-size: 0.875rem;
+  }
+}
+.month-specials .specials-content .special .special-items span {
+  font-weight: 600;
+  font-family: "Josefin Sans", sans-serif;
+}
+@media screen and (max-width: 39.9375em) {
+  .month-specials .specials-content .special .img-02 {
+    -ms-flex-order: 2;
+    order: 2;
+  }
+  .month-specials .specials-content .special .spec-02 {
+    -ms-flex-order: 1;
+    order: 1;
+  }
+  .month-specials .specials-content .special .img-05 {
+    -ms-flex-order: 1;
+    order: 1;
+  }
+  .month-specials .specials-content .special .spec-05 {
+    -ms-flex-order: 2;
+    order: 2;
+  }
+}
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+  .month-specials .specials-content .special .img-03 {
+    -ms-flex-order: 2;
+    order: 2;
+  }
+  .month-specials .specials-content .special .spec-03 {
+    -ms-flex-order: 1;
+    order: 1;
+  }
+  .month-specials .specials-content .special .img-05,
+  .month-specials .specials-content .special .img-06 {
+    -ms-flex-order: 1;
+    order: 1;
+  }
+  .month-specials .specials-content .special .spec-05,
+  .month-specials .specials-content .special .spec-06 {
+    -ms-flex-order: 2;
+    order: 2;
+  }
+}
+
+.header-txt {
+  display: block;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  margin-top: 10px;
+}
+@media print, screen and (min-width: 40em) {
+  .header-txt {
+    font-size: 2.5em;
+  }
+}
+
+.st0 {
+  fill: none;
+  stroke: #3c3c3c;
+  stroke-width: 10;
+  stroke-linecap: square;
+  stroke-miterlimit: 10;
+}
+
+.divider {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 2.5rem;
+  width: 250px;
+}
+@media screen and (max-width: 39.9375em) {
+  .divider {
+    width: 200px;
+  }
+}
+
+.specials-content .add-item-btn {
+  padding: 5px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: lightgreen;
+  width: fit-content;
+  margin: 5px auto;
+}
